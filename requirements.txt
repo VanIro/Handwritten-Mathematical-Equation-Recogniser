@@ -11,3 +11,6 @@ tensorflow==2.8.0
 streamlit==1.11.1
 streamlit-drawable-canvas==0.9.1
 
+pylatexenc==2.10
+visualkeras==0.0.2
+
