@@ -17,7 +17,7 @@ with tab1:
     image = visualkeras.layered_view(model, legend=True, font=font) # selected font
     st.image(image)
 
-    plot_model(model, to_file='./model_viz_images/model_plot.png', show_shapes=True, show_layer_names=True)
+    #plot_model(model, to_file='./model_viz_images/model_plot.png', show_shapes=True, show_layer_names=True)
 
     image = Image.open('./model_viz_images/model_plot.png')
 
