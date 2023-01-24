@@ -1,4 +1,7 @@
 # Handwritten-Mathematical-Equation-Recogniser
+### Requirements:
+- Use python 3.9.x
+- Then, run `pip install -r requirements.txt` from your environment.
 ## Streamlit App
 ![web_app_custom_model](https://user-images.githubusercontent.com/61639823/182600439-1e5bd364-dc5c-4a1c-830c-839b794a0800.png)
 
