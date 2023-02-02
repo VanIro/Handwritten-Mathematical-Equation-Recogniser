@@ -8,7 +8,7 @@ st.header("Handwritten Maths Equation Recognizer")
 
 # Specify canvas parameters in application
 drawing_mode = st.sidebar.selectbox(
-    "Drawing tool:", ("freedraw", "transform")
+    "Drawing tool:", ("freedraw", "transform"), key='drawing_canvas_select_box'
 )
 
 stroke_width = st.sidebar.slider("Stroke width: ", 1, 25, 3)
